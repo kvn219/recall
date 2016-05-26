@@ -1,0 +1,49 @@
+[{
+    'ConsumerContact': 'Fisher-Price at 800-432-5437 from 9 a.m. to 6 p.m. ET Monday through Friday, or online at www.service.mattel.com and click on Recalls & Safety Alerts for more information. ',
+    'Description': "This recall includes three models of the Fisher-Price cradle swings: CHM84 Soothing Savanna Cradle 'n Swing, CMR40 Sweet Surroundings Cradle 'n Swing, and CMR43 Sweet Surroundings Butterfly Friends Cradle 'n Swing. The swings have two different swinging motions - rocking side-to-side, or swinging head-to-toe, and six different swing speeds from low to high. The product number is located on the seat under the pad. ",
+    'Hazards': [{
+        'HazardTypeID': '67521',
+        'Name': 'When the seat peg is not fully engaged the seat can fall unexpectedly, posing a risk of injury to the child.'
+    }],
+    'Images': [{
+        'URL': 'http://www.cpsc.gov/Global/Images/Recall/2016/16143/FPCHM84PR2Z.jpg'
+    }, {
+        'URL': 'http://www.cpsc.gov/Global/Images/Recall/2016/16143/FPCMR40PR3Z.jpg'
+    }, {
+        'URL': 'http://www.cpsc.gov/Global/Images/Recall/2016/16143/FPCMR43PR3Z.jpg'
+    }, {
+        'URL': 'http://www.cpsc.gov/Global/Images/Recall/2016/16143/Inset1.jpg'
+    }, {
+        'URL': 'http://www.cpsc.gov/Global/Images/Recall/2016/16143/Inset2.jpg'
+    }],
+    'Inconjunctions': [],
+    'Injuries': [{
+        'Name': 'Fisher-Price has received two reports of a seat peg coming out from the seat, causing the seat to fall. No injuries have been reported.'
+    }],
+    'LastPublishDate': '2016-04-14T00:00:00',
+    'ManufacturerCountries': [{
+        'Country': 'Mexico'
+    }],
+    'Manufacturers': [],
+    'ProductUPCs': [],
+    'Products': [{
+        'CategoryID': '67570',
+        'Description': '',
+        'Model': '',
+        'Name': 'Cradle ‘n Swings',
+        'NumberOfUnits': 'About 34,000',
+        'Type': 'Portable Baby Swings'
+    }],
+    'RecallDate': '2016-04-14T00:00:00',
+    'RecallID': 6705,
+    'RecallNumber': '16143',
+    'Remedies': [{
+        'Name': 'Consumers should immediately stop using the recalled cradle swing and contact Fisher-Price for revised assembly instructions.'
+    }],
+    'Retailers': [{
+        'CompanyID': '0',
+        'Name': 'buybuyBaby, Target and other stores nationwide and online at Amazon.com and other websites from November 2015 through March 2016 for about $170.'
+    }],
+    'Title': 'Fisher-Price Recalls Infant Cradle Swings Due to Fall Hazard',
+    'URL': 'http://www.cpsc.gov/en/Recalls/2016/Fisher-Price-Recalls-Infant-Cradle-Swings/'
+}]

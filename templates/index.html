@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recall Flask App</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href="{{ url_for("static", filename="./custom.css") }}" rel="stylesheet">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table-locale-all.js"></script>
+    </head>
+
+    <body>
+        <h1>CSPC Recalls</h1>
+        <p><strong>{{ recalls_count }}</strong> total number of recalls.</p>
+        <table border=1 cellpadding=1>
+            <div style="padding: 10px; ">
+                <br>
+                    <thead>
+                        {% for recall in recalls %}
+                        <tr>
+                            <td>
+                                <a href="{{recall['URL']}}"><img class='img-thumbnail' src="{{recall['Images'][0]['URL']}}" alt='No Image'></a>
+                            </td>
+                            <td><strong>{{recall['RecallDate'][:10]}}</strong>
+                                <br/>{{recall['Title']}}</td>
+                            <td><strong>Description</strong>
+                                <br/>{{recall['Description']}}</td>
+                        </tr>
+                        {% endfor %}
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </table>
+    </body>
+
+</html>
