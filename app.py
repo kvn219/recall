@@ -1,4 +1,3 @@
-# from datafoo import get_data
 from flask import Flask
 from flask import render_template
 from datafoo import get_data
