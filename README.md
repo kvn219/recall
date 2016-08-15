@@ -11,8 +11,6 @@ __Tasks__:
 ### Set up and run project
 
 ```sh
-$ mkdir recalls-flask-app
-$ cd recalls-flask-app
 $ git clone https://github.com/kvn219/recall.git
 $ cd recall
 $ virtualenv -p python3 venv
