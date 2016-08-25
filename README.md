@@ -1,6 +1,6 @@
 # recall
 
-Computational Journalism, Spring 2016 @ Stanford taught by Dan Nguyen.  Working through his Introduction to Simple News Apps based on CSPC Recall Data exercise.
+Working through the Simple News Apps tutorial with CSPC Recall Data from Stanford Computational Journalism, Spring 2016.
 
 __Tasks__:
   1. Create a Flask app
